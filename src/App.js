@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Home } from "./Screens/Home/home";
-import { About } from "./Screens/About/about";
-import { Writing } from "./Screens/Writing/index";
-import { Photography } from "./Screens/Photography/index";
-import { Contact } from "./Screens/Contact/index";
+import { Home } from "./screens/Home/home";
+import { About } from "./screens/About/about";
+import { Writing } from "./screens/Writing/index";
+import { Photography } from "./screens/Photography/index";
+import { Contact } from "./screens/Contact/index";
 
 function App() {
   return (
