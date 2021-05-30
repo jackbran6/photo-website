@@ -6,14 +6,33 @@ import { About } from "./Screens/About/about";
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+      <div className={"body"}>
+        <nav className={"App-header"}>
+          <ul className={"list"}>
+            <li className={"list-item"}>
+              <Link className={"link"} to="/">
+                Home
+              </Link>
             </li>
-            <li>
-              <Link to="/about">About</Link>
+            <li className={"list-item"}>
+              <Link className={"link"} to="/about">
+                Photography
+              </Link>
+            </li>
+            <li className={"list-item"}>
+              <Link className={"link"} to="/about">
+                Writing
+              </Link>
+            </li>
+            <li className={"list-item"}>
+              <Link className={"link"} to="/about">
+                About
+              </Link>
+            </li>
+            <li className={"list-item"}>
+              <Link className={"link"} to="/about">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>
