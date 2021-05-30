@@ -10,29 +10,39 @@ function App() {
         <nav className={"App-header"}>
           <ul className={"list"}>
             <li className={"list-item"}>
-              <Link className={"link"} to="/">
-                Home
-              </Link>
+              <div className={"link-container"}>
+                <Link className={"link"} to="/">
+                  Home
+                </Link>
+              </div>
             </li>
             <li className={"list-item"}>
-              <Link className={"link"} to="/about">
-                Photography
-              </Link>
+              <div className={"link-container"}>
+                <Link className={"link"} to="/about">
+                  Photography
+                </Link>
+              </div>
             </li>
             <li className={"list-item"}>
-              <Link className={"link"} to="/about">
-                Writing
-              </Link>
+              <div className={"link-container"}>
+                <Link className={"link"} to="/about">
+                  Writing
+                </Link>
+              </div>
             </li>
             <li className={"list-item"}>
-              <Link className={"link"} to="/about">
-                About
-              </Link>
+              <div className={"link-container"}>
+                <Link className={"link"} to="/about">
+                  About
+                </Link>
+              </div>
             </li>
             <li className={"list-item"}>
-              <Link className={"link"} to="/about">
-                Contact
-              </Link>
+              <div className={"link-container"}>
+                <Link className={"link"} to="/about">
+                  Contact
+                </Link>
+              </div>
             </li>
           </ul>
         </nav>

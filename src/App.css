@@ -2,8 +2,12 @@
   height: 100vh;
   width: 100vw;
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
+  background-image: linear-gradient(
+      to right,
+      rgb(204, 204, 204) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(204, 204, 204) 1px, transparent 1px);
 }
 .App-header {
   height: 10vh;
@@ -20,5 +24,9 @@
 }
 .link {
   text-decoration: none;
-  color: burlywood;
+  color: black;
+}
+.link-container {
+  background-color: pink;
+  padding: 10px;
 }
