@@ -3,15 +3,23 @@ import "./home.css";
 
 export const Home = () => {
   return (
-    <div>
-      <div className={"overall-page"}>
-        <div className={"post-square"}></div>
-        <div className={"post-square"}></div>
-        <div className={"post-square"}></div>
-        <div className={"post-square"}></div>
-        <div className={"post-square"}></div>
-        <div className={"post-square"}></div>
+    <div className={"page"}>
+      <div className={"pink-rectangle"}></div>
+      <div className={"title-container"}>
+        <text className={"title-text"}>jayne</text>
+        <text className={"title-text"}>mulligan</text>
       </div>
     </div>
   );
 };
+
+{
+  /* <div className={"post-list"}>
+        <div className={"post-square"}></div>
+        <div className={"post-square"}></div>
+        <div className={"post-square"}></div>
+        <div className={"post-square"}></div>
+        <div className={"post-square"}></div>
+        <div className={"post-square"}></div>
+      </div> */
+}
